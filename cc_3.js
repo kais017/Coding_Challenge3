@@ -43,10 +43,10 @@ console.log(feedback);
 // Logging array
 
 // Task 5: Inventory Management System Scenario
-let inventory = {itemName: "sneakers", stockCount: 3000, price: 250 } 
+let inventory = {itemName: "sneakers", stockCount: 3000, price: 250 }; 
 // creating the object "inventory" and listing all of its properties
 
-calculateTotalValue = inventory.stockCount *= inventory.price 
+calculateTotalValue = inventory.stockCount * inventory.price 
 // calculating the total value of our inventory by multiplying stock count by price
 
 console.log(inventory);
