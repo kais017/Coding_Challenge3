@@ -16,8 +16,7 @@ let employee = {
     name: "Paul Atreides",
     role: "Kwisatz Haderach",
     performanceScore: 100,
-    isActive: true,
-    promotionEligible: true
+    isActive: true
 } // employee properties
 
 let UpdatedperformanceScore = 50; // updating the performance score
@@ -29,3 +28,17 @@ console.log("Performance Score:", employee.performanceScore);
 console.log("Updated Performance Score:", UpdatedperformanceScore);
 console.log(promotionEligible);
 // Logging Task 3
+
+// Task 4: Customer Feedback Records
+let feedback = [
+   { customerName: "Chani", feedbackText: "This product sucks.", rating: 1 },
+   { customerName: "Baron Harkonnen", feedbackText: "I love this product.", rating: 10  },
+   { customerName: "Lady Jessica ", feedbackText: "This Product is so helpful", rating: 9}
+]; // Making an array of customers with their feedback and ratings of the products
+
+   feedback.push({customerName: "Feyd Rautha", feedbackText: "I hate this product.", rating: 0})
+// added a new customer 
+
+console.log(feedback);
+// Logging task 4
+
